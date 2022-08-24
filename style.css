@@ -70,6 +70,8 @@ p {
 }
 
 .content {
+    min-height: 100vh;
+    position: relative;
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -87,6 +89,7 @@ img {
 /* consolidated sections under the file class that share the same traits*/
 .informs {
     margin-right: 40px;
+    position: relative;
     padding: 30px;
     clear: both;
     float: right;
@@ -110,7 +113,15 @@ img {
     
 }
 
-
+.footer {
+    
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: solid black 10 px;
+    background-color: aquamarine;
+}
 
    
 

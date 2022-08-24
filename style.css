@@ -1,15 +1,18 @@
 
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
 body {
     display: flex;
     min-height: 100vh;
+    background-image: conic-gradient(violet, beige, rgb(57, 57, 117));
     background-color:blanchedalmond
    }
 }
 .header {
     padding: 20px;
+    border: 1px solid;
+    box-shadow: 5px 10px grey;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(37, 156, 156);
     color:black;
@@ -80,9 +83,10 @@ p {
 
 img {
     width: 400px;
-    height: 700px;
+    height: 500px;
     object-fit: contain;
     border: 5px solid #555
+    
 
 }
 
@@ -97,6 +101,7 @@ img {
     height: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:antiquewhite
+    
 }
 
 
@@ -119,8 +124,10 @@ img {
     bottom: 0;
     width: 100%;
     text-align: center;
-    border: solid black 10 px;
-    background-color: aquamarine;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px grey;
+    background-color: rgb(37, 156, 156);
 }
 
    

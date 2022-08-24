@@ -1,16 +1,17 @@
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
 body {
-    
+    display: flex;
+    min-height: 100vh;
     background-color:blanchedalmond
    }
 }
 .header {
     padding: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(8, 88, 88);
+    background-color: rgb(37, 156, 156);
     color:black;
 }
 
@@ -85,8 +86,8 @@ img {
 
 /* consolidated sections under the file class that share the same traits*/
 .informs {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 40px;
+    padding: 30px;
     clear: both;
     float: right;
     width: 20%;
@@ -109,12 +110,7 @@ img {
     
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    justify-content: center;
-    height: 2.5em;
-    
-}
+
+
+   
+

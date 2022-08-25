@@ -1,6 +1,6 @@
 
 
-
+/* makes the page go from blanched-almond background to a purple-gray gradient*/
 @media only screen and (max-width: 1500px) {
 body {
     display: flex;
@@ -117,7 +117,7 @@ img {
     justify-content: center;
     
 }
-
+/* there was an issue getting this to anchor at the bottom of the page, be wary in future*/
 .footer {
     
     display: inline-block;

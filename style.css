@@ -6,7 +6,7 @@ body {
     display: flex;
     min-height: 100vh;
     background-image: conic-gradient(violet, beige, rgb(57, 57, 117));
-    background-color:blanchedalmond
+    background-color:rgb(13, 125, 13)
    }
 }
 .header {
@@ -32,9 +32,10 @@ body {
     margin-left: 50px;
 }
 
-
-a {
+/*add violet to text background when hovered over in about me, contact, etc space*/
+a:hover {
     color:black;
+    background-color: blueviolet;
     text-decoration: none;
 }
 
